@@ -1,4 +1,4 @@
-jobs
-====
+#jobs
 
-Jobs of MINDPIN
+运行工程：<br/>
+ruby -run -e httpd . -p 4000

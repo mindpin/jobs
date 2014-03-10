@@ -1,0 +1,142 @@
+@charset "UTF-8";
+body {
+  background-color: #222;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, arial, 微软雅黑;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #222; }
+  body p {
+    margin: 0;
+    padding: 0; }
+  body h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: helvetica, arial, 微软雅黑;
+    margin-bottom: 10px; }
+  body hr {
+    border: 0 none;
+    height: 0;
+    line-height: 0;
+    border-bottom: dashed 1px #ccc; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+    body ul li {
+      padding: 0;
+      margin: 0;
+      margin-left: 20px; }
+
+body {
+  background-color: #f1f1f1; }
+  body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0; }
+  body:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 600px;
+    width: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0; }
+  body .nodes {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 40px; }
+    body .nodes.right {
+      left: 600px; }
+    body .nodes .node {
+      background: white;
+      border-radius: 5px;
+      padding: 20px;
+      margin-left: 60px;
+      position: relative;
+      border-bottom: solid 2px #ddd;
+      margin-bottom: 20px; }
+      body .nodes .node:before {
+        content: "";
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background-color: #333;
+        left: -79px;
+        border-radius: 40px;
+        border: solid 3px white; }
+      body .nodes .node:after {
+        content: "";
+        border: solid 16px transparent;
+        border-right: solid 16px white;
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 23px;
+        left: -32px; }
+      body .nodes .node i {
+        color: white;
+        position: absolute;
+        top: 31px;
+        left: -61px;
+        font-size: 20px; }
+      body .nodes .node.intro {
+        width: 340px; }
+        body .nodes .node.intro .mindpin-team {
+          background: url(../images/mindpin-team-300.png?2) no-repeat;
+          width: 300px;
+          height: 50px;
+          position: relative;
+          left: -13px;
+          top: -10px; }
+      body .nodes .node.location {
+        width: 300px; }
+        body .nodes .node.location i {
+          left: -64px; }
+        body .nodes .node.location:before {
+          background-color: #cc3333; }
+      body .nodes .node.about-us {
+        width: 400px; }
+        body .nodes .node.about-us i {
+          left: -66px; }
+        body .nodes .node.about-us:before {
+          background-color: #2C9BE2; }
+      body .nodes .node.email {
+        width: 400px; }
+        body .nodes .node.email i {
+          left: -68px; }
+        body .nodes .node.email:before {
+          background-color: #158144; }
+        body .nodes .node.email label {
+          float: left;
+          width: 6em;
+          text-align: right; }
+      body .nodes .node.provide {
+        width: 400px; }
+        body .nodes .node.provide i {
+          left: -68px; }
+        body .nodes .node.provide:before {
+          background-color: #555; }
+      body .nodes .node.need {
+        width: 500px;
+        background-color: #ffffda; }
+        body .nodes .node.need i {
+          left: -68px; }
+        body .nodes .node.need:before {
+          background-color: #555; }
+        body .nodes .node.need:after {
+          border-right-color: #ffffda; }
+      body .nodes .node.up {
+        width: 400px; }
+        body .nodes .node.up i {
+          left: -68px; }
+        body .nodes .node.up:before {
+          background-color: #555; }
