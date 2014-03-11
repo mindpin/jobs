@@ -119,6 +119,37 @@ body {
           float: left;
           width: 6em;
           text-align: right; }
+        body .nodes .node.email .qqs {
+          overflow: hidden; }
+          body .nodes .node.email .qqs label {
+            height: 26px;
+            line-height: 26px; }
+        body .nodes .node.email .qq {
+          float: left;
+          background-color: #C2EBFD;
+          font-size: 14px;
+          line-height: 16px;
+          height: 16px;
+          margin-right: 5px;
+          padding: 5px;
+          border-radius: 5px;
+          color: #222 !important; }
+          body .nodes .node.email .qq img {
+            float: left;
+            margin-right: 5px; }
+          body .nodes .node.email .qq span {
+            float: left;
+            line-height: 16px;
+            height: 16px; }
+          body .nodes .node.email .qq:hover {
+            background-color: #91dbfb; }
+        body .nodes .node.email .weibo {
+          overflow: hidden;
+          margin-bottom: 10px; }
+          body .nodes .node.email .weibo .b {
+            margin-left: 6em;
+            margin-top: 5px;
+            height: 25px; }
       body .nodes .node.provide {
         width: 400px; }
         body .nodes .node.provide i {

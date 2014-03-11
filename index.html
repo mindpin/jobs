@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='zh'>
+<html lang='zh' xmlns:wb="http://open.weibo.com/wb">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>MINDPIN 团队招募</title>
@@ -52,14 +52,22 @@
             <b>mindpin@gmail.com</b>
           </div>
 
-          <div>
+          <div class='weibo'>
             <label>新浪微博：</label>
-            <b>http://weibo.com/mindpin</b>
+            <div class='w'>weibo.com/mindpin</div>
+            <div class='b'>
+              <wb:follow-button uid="2255854945" type="red_2" width="136" height="24" ></wb:follow-button>
+            </div>
           </div>
 
-          <div>
+          <div class='qqs'>
             <label>QQ：</label>
-            <b>66034278, 6217861</b>
+            <a class='qq' target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=66034278&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=1:66034278:4" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+              <span>66034278</span>
+            </a> 
+            <a class='qq' target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=6217861&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=1:6217861:4" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+              <span>6217861</span>
+            </a> 
           </div>
 
           <hr/>
@@ -128,5 +136,6 @@
     <script type="text/javascript" src="ui/lib/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="ui/lib/coffee-script.js"></script>
     <script type="text/coffeescript" src="ui/ui.js.coffee"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
