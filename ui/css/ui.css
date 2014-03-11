@@ -33,7 +33,7 @@ body {
   background-color: #f1f1f1; }
   body:before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 40px;
@@ -42,7 +42,7 @@ body {
     z-index: 0; }
   body:after {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 600px;
