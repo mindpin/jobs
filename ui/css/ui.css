@@ -89,14 +89,17 @@ body {
         left: -61px;
         font-size: 20px; }
       body .nodes .node.intro {
-        width: 340px; }
+        width: 340px;
+        padding-bottom: 0; }
         body .nodes .node.intro .mindpin-team {
-          background: url(../images/mindpin-team-300.png?2) no-repeat;
-          width: 300px;
-          height: 50px;
+          background: url(../images/mindpin-team-300-1.png?2) no-repeat;
+          width: 350px;
+          height: 110px;
           position: relative;
           left: -13px;
           top: -10px; }
+        body .nodes .node.intro:before {
+          background-color: #f1c100; }
       body .nodes .node.location {
         width: 300px; }
         body .nodes .node.location i {
@@ -156,6 +159,45 @@ body {
           left: -68px; }
         body .nodes .node.provide:before {
           background-color: #555; }
+      body .nodes .node.products {
+        width: 500px; }
+        body .nodes .node.products i {
+          left: -66px; }
+        body .nodes .node.products:before {
+          background-color: #555; }
+        body .nodes .node.products a {
+          float: left;
+          height: 80px;
+          width: 80px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          position: relative;
+          text-decoration: none;
+          border-radius: 8px;
+          border: solid 2px #ccc; }
+          body .nodes .node.products a span {
+            font-size: 12px;
+            color: white;
+            text-decoration: none;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6); }
+        body .nodes .node.products .flappy {
+          background: url(../images/flappy80.png) no-repeat; }
+        body .nodes .node.products .warrior {
+          background: url(../images/warrior80.png) no-repeat; }
+        body .nodes .node.products .js-study {
+          background: url(../images/js-study80.png) no-repeat; }
+        body .nodes .node.products .mindpin {
+          background: url(../images/mindpin80.png) no-repeat; }
+        body .nodes .node.products .mindmap {
+          background: url(../images/mindmap80.png) no-repeat; }
       body .nodes .node.need {
         width: 500px;
         background-color: #ffffda; }
