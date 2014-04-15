@@ -33,7 +33,7 @@ body {
   background-color: #f1f1f1; }
   body:before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 40px;
@@ -42,7 +42,7 @@ body {
     z-index: 0; }
   body:after {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 600px;
@@ -89,14 +89,17 @@ body {
         left: -61px;
         font-size: 20px; }
       body .nodes .node.intro {
-        width: 340px; }
+        width: 340px;
+        padding-bottom: 0; }
         body .nodes .node.intro .mindpin-team {
-          background: url(../images/mindpin-team-300.png?2) no-repeat;
-          width: 300px;
-          height: 50px;
+          background: url(../images/mindpin-team-300-1.png?2) no-repeat;
+          width: 350px;
+          height: 110px;
           position: relative;
           left: -13px;
           top: -10px; }
+        body .nodes .node.intro:before {
+          background-color: #f1c100; }
       body .nodes .node.location {
         width: 300px; }
         body .nodes .node.location i {
@@ -119,12 +122,82 @@ body {
           float: left;
           width: 6em;
           text-align: right; }
+        body .nodes .node.email .qqs {
+          overflow: hidden; }
+          body .nodes .node.email .qqs label {
+            height: 26px;
+            line-height: 26px; }
+        body .nodes .node.email .qq {
+          float: left;
+          background-color: #C2EBFD;
+          font-size: 14px;
+          line-height: 16px;
+          height: 16px;
+          margin-right: 5px;
+          padding: 5px;
+          border-radius: 5px;
+          color: #222 !important; }
+          body .nodes .node.email .qq img {
+            float: left;
+            margin-right: 5px; }
+          body .nodes .node.email .qq span {
+            float: left;
+            line-height: 16px;
+            height: 16px; }
+          body .nodes .node.email .qq:hover {
+            background-color: #91dbfb; }
+        body .nodes .node.email .weibo {
+          overflow: hidden;
+          margin-bottom: 10px; }
+          body .nodes .node.email .weibo .b {
+            margin-left: 6em;
+            margin-top: 5px;
+            height: 25px; }
       body .nodes .node.provide {
         width: 400px; }
         body .nodes .node.provide i {
           left: -68px; }
         body .nodes .node.provide:before {
           background-color: #555; }
+      body .nodes .node.products {
+        width: 500px; }
+        body .nodes .node.products i {
+          left: -66px; }
+        body .nodes .node.products:before {
+          background-color: #555; }
+        body .nodes .node.products a {
+          float: left;
+          height: 80px;
+          width: 80px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          position: relative;
+          text-decoration: none;
+          border-radius: 8px;
+          border: solid 2px #ccc; }
+          body .nodes .node.products a span {
+            font-size: 12px;
+            color: white;
+            text-decoration: none;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6); }
+        body .nodes .node.products .flappy {
+          background: url(../images/flappy80.png) no-repeat; }
+        body .nodes .node.products .warrior {
+          background: url(../images/warrior80.png) no-repeat; }
+        body .nodes .node.products .js-study {
+          background: url(../images/js-study80.png) no-repeat; }
+        body .nodes .node.products .mindpin {
+          background: url(../images/mindpin80.png) no-repeat; }
+        body .nodes .node.products .mindmap {
+          background: url(../images/mindmap80.png) no-repeat; }
       body .nodes .node.need {
         width: 500px;
         background-color: #ffffda; }
